@@ -1,0 +1,143 @@
+.gradient
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #100e4c, transparent);
+    filter: drop-shadow(0 5px 1rem crimson);
+    /*linear-gradient(45deg, #2f4362 41%, #802020 51%);*/
+    padding-bottom: 10px;
+}
+
+.title
+{
+    font-size: 80px;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#flexbox
+{
+    display: grid;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#logo, #container
+{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#container
+{
+    display: flex;
+    height: 95%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#logo img
+{
+    transition: all ease-in-out 0.5s;
+}
+
+#logo img:hover
+{
+    transform: scale(1.2);
+}
+
+img.rounded
+{
+    object-fit: cover;
+    clip-path: circle();
+    height: 60%;
+}
+.subtitle
+{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.display
+{
+    display: flex;
+    width: 100vw;
+    height: 250px;
+    word-spacing: 1px;
+    background-color: rgba(255, 211, 211, 0.665);
+    z-index: 1;
+    padding-top: 10px;    
+}
+
+.display#one, .display#three, .display#five
+{
+    text-align: center;
+}
+
+.display#two, .display#four, .display#six
+{
+    text-align: center;
+}
+
+.note1
+{
+    padding-top: 20px;
+}
+
+.note1, .note3, .note5
+{
+    display: flexbox;
+    max-width: 40%;
+    padding: auto;
+    max-height: 100%;
+    margin-left: 2vw;
+}
+
+.note2, .note4, .note6
+{
+    display: flexbox;
+    padding: auto;
+    max-width: 45%;
+    max-height: 100%;
+    margin-left: 50vw;
+}
+
+.small
+{
+    max-height: 100%;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 15px 15px;
+}
+
+.big
+{
+    max-height: 80%;
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30pt;
+    background-color: #0f41a4;
+}
